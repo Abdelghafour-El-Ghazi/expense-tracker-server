@@ -15,7 +15,7 @@ const app = express();
 app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://xenodochial-shirley-1c0999.netlify.app/"
+    "https://xenodochial-shirley-1c0999.netlify.app"
   );
 
   res.setHeader(
